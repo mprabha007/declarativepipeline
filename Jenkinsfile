@@ -3,6 +3,14 @@ pipeline
 agent any
 stages
 {
+ stage('Prepare')
+ {
+  steps
+  {
+   echo "Source Code Download from the GITHUB to Declarative Pipeline......."
+  }
+ }
+
  stage('Commit')
  {
   steps
