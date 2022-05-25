@@ -25,13 +25,6 @@ stages
     echo "This is Build project run with maven tool ................"
    }
   }
-  stage('QA Test')
- {    
-  steps
-   {
-    echo "This is Build project run with maven tool ................"
-   }
-  }
  stage('Test')
  {
   steps
