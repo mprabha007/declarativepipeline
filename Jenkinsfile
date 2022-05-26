@@ -39,7 +39,7 @@ stages
     echo "This is Deploy project run with Docker tool ................"
    }
   }
- stage('Monitor by splunk')
+ stage('Monitor by granana')
  {    
   steps
    {
